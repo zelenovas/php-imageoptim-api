@@ -1,7 +1,8 @@
 <?php
 
-class OnlineTest extends PHPUnit_Framework_TestCase {
-    function setUp() {
+class OnlineTest extends PHPUnit\Framework\TestCase {
+    function setUp(): void
+    {
         $this->api = new ImageOptim\API("gnbkrbjhzb");
     }
 
